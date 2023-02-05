@@ -1,4 +1,4 @@
-/*
+
 console.log(21);
 console.log('hey brooo');
 
@@ -78,7 +78,7 @@ else{
     console.log("ami choto");
 
 }
-*/
+
 
 
 //Fundamental of array;
@@ -155,10 +155,6 @@ var totalPro = sendSomething(5,10);
 
 console.log(total);
 console.log(totalPro);
-
-// Js Object,Key
-
-
 
 
 /*
