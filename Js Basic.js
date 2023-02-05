@@ -1,3 +1,4 @@
+/*
 console.log(21);
 console.log('hey brooo');
 
@@ -77,3 +78,113 @@ else{
     console.log("ami choto");
 
 }
+*/
+
+
+//Fundamental of array;
+
+var array = [1,5,8,32,45];
+
+console.log(array[3]);
+
+array[3]=49;
+
+console.log(array[3]);
+
+var position = array.indexOf(45);
+var pos = array.indexOf(49);
+
+
+console.log('Postition ' + position );
+
+console.log('new index position ' + pos );
+
+array.push(55);
+console.log(array);
+console.log(array.length);
+array.pop();
+console.log('pop er pore len '+ array.length);
+
+var teamLine = ['kalam' , 'balam' ,'salam','kudus','pudus','kedaa'];
+teamLine.shift(); //array er samner ta sorabo
+console.log(teamLine);
+teamLine.unshift('chairman');
+console.log(teamLine);
+
+var part = teamLine.slice(2,5); // 5-2= 3 (majkhane 3ta value pabo)
+console.log(part);
+
+var sum=10;
+while(sum<15){
+    console.log(sum);
+    sum++;
+}
+
+for(var i=0; i<teamLine.length;i++){
+    var elements = teamLine[i];
+    console.log(elements);
+}
+
+var num = 1000;
+
+switch(num){
+
+    case 100: 
+    console.log('here is 100');
+    break;
+
+    case 50:
+    console.log('here is 50');
+    break;
+
+    case 1000:
+     console.log('here is 1000');
+        break;
+
+        default:
+            console.log('i dont know this value');
+
+}
+
+function sendSomething(num1,num2){
+    var total = num1 * num2 ;
+    return total;
+}
+var total = sendSomething(2,10);
+var totalPro = sendSomething(5,10);
+
+console.log(total);
+console.log(totalPro);
+
+// Js Object,Key
+
+
+
+
+/*
+
+Loop er kaj 
+for(var i=0; i<10; i++){
+    array.push(i);
+    console.log('after push new index is ' + array.indexOf(i));
+
+}
+******
+
+var paisi;
+
+for(var i=0;i<50; i++){
+    var cnt = i;
+    var pos=array.indexOf(i);
+
+    if(cnt==pos){
+       paisi=cnt;
+        console.log(pos + 'is locate in ' + paisi);
+    }
+    else{
+        console.log('naai');
+    }
+     
+}
+*/
+
